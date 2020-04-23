@@ -1,0 +1,34 @@
+{
+  "name": "bootstrap-starterkit",
+  "version": "1.0.0",
+  "description": "bootstrap starterkit",
+  "main": "index.js",
+  "dependencies": {
+    "@popperjs/core": "^2.3.3",
+    "bootstrap": "^4.4.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erdie/bootstrap-starterkit.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "gulp"
+  ],
+  "author": "Erdiawan Anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erdie/bootstrap-starterkit/issues"
+  },
+  "homepage": "https://github.com/erdie/bootstrap-starterkit#readme"
+}

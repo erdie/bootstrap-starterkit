@@ -19,6 +19,13 @@ function copyjs() {
     .pipe(browserSync.stream());
 }
 
+//move the javascript files into src/js folder
+function copyjs() {
+    return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js','node_modules/jquery/dist/jquery.slim.min.js','node_modules/popper.js/dist/popper.min.js' ])
+    .pipe(gulp.dest('src/js'))
+    .pipe(browserSync.stream());
+}
+
 //run web server and watch
 function watch() {
     browserSync.init({
