@@ -4,12 +4,12 @@
   "description": "bootstrap starterkit",
   "main": "index.js",
   "dependencies": {
-    "@popperjs/core": "^2.4.4",
-    "bootstrap": "^4.5.0",
+    "@popperjs/core": "^2.10.1",
+    "bootstrap": "^4.6.0",
     "browser-sync": "^2.27.5",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.0.2",
-    "jquery": "^3.5.1",
+    "gulp-sass": "^4.1.1",
+    "jquery": "^3.6.0",
     "popper.js": "^1.16.1"
   },
   "devDependencies": {},
